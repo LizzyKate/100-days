@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #406ae0d1;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    height: 100vh;
+    text-align: center;
+}
+.container button{
+    background-color: transparent;
+    border: 1px solid #333333;
+    outline: none;
+    padding: 5px;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.container p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'PlayfairDisplay';
+    border: 1px solid transparent;
+    color:#333333 ;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
