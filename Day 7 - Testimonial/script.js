@@ -38,17 +38,17 @@
 				if (counter < 0){
 					counter = pack.length - 1;
 				}
-				// identity.textContent = pack.name[counter];
-				// para.textContent = pack.text[counter];
-				// picture.src = `./images/${pack.image[counter]}.jpg`;
+				identity.textContent = pack[counter].name;
+				para.textContent = pack[counter].text;
+				picture.src = `./img/${pack[counter].image}.jpg`;
 			} else if(button.classList.contains('nextBtn')){
 				counter ++;
 				if (counter > pack.length - 1){
 					counter = 0;
 				}
-				// identity.textContent = pack.name[counter];
-				// para.textContent = pack.text[counter];
-				// picture.src = `./images/${pack.image[counter]}.jpg`;
+				identity.textContent = pack[counter].name;
+				para.textContent = pack[counter].text;
+				picture.src = `./img/${pack[counter].image}.jpg`;
 			}
 		})
 	}) 
