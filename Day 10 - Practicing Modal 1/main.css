@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.img{
+    margin: 20px;
+    margin-left:70px !important;
+    width: 80px;
+}
+.img img{
+    width: 100%;
+}
+.shows{
+    font-family: 'Montserrat' !important;
+    font-size: 10px;
+}
+.new-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+.new-img{
+    width: 40px;
+}
+.new-img img{
+    width: 100%;
+}
+.pose{
+    position: relative;
+}
+.divide{
+    height: 100vh !important;
+}
+.first-division{
+    flex: 0 !important;
+    width: 10%!important;
+  /*  padding: 0 !important;*/
+}
+.second-division{
+    flex-grow: 1 !important;
+    max-width: 100% !important;
+}
+.icon{
+    margin: auto;
+    margin-top: 60px !important;
+}
+.icon img{
+    width:15px;
+}
+.reduce{
+    font-size: 12px;
+    font-family: 'Montserrat' !important;
+}
+.curve{
+    width: 15px;
+    height: 15px;
+    border:1px solid #7070709e;
+    border-radius: 3px;
+}
+.fill{
+    border-bottom: 1px solid #9A9A9A4D;
+}
+.shift{
+    margin-top: 4rem;
+}
+.yes{
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-top: 0.10rem;
+}
+.sub{
+    width: 65% !important;
+}
+.choose{
+    font-size: 11px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.enable{
+    margin-top: 3px !important;
+}
+.all{
+    font-size: 12px;
+     font-family: 'Montserrat';
+    font-weight: 500;
+}
+.to{
+    width:16px;
+    height: 16px;
+    border:1px solid #707070;
+}
+.custom{
+    font-size: 10px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+.action{
+    width:65% !important;
+}
+.other{
+    border:1px solid #9A9A9A !important;
+    border-right: none !important;
+}
+.other:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #9A9A9A !important;
+}
+.else{
+     border:1px solid #9A9A9A !important;
+    border-left: none !important;
+}
+.else:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #9A9A9A !important;
+    border-left: none !important;
+}
+.site{
+     font-size: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.bold{
+    border:1px solid #EAECF3 !important;
+    border-radius: 10px !important;
+}
+.dash{
+    border-left:1px solid #EAECF3 !important;
+}
+.svg{
+    width: 25px;
+   /* margin-left: 2px !important;*/
+}
+.svg img, .italic img, .link img, .quote img, .ul img, .ol img{
+    width: 100%;
+}
+.italic, .link{
+    width: 28px;
+   /* margin-left: 6px !important;*/
+}
+.quote{
+    width: 28px;
+   /* margin-left: 2px !important*/
+}
+.ul, .ol{
+    width:28px;
+}
+.abt{
+    height: 15% !important;
+    border:1px solid #EAECF3 !important;
+    width:85% !important;
+}
+.abt:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid  #EAECF3 !important;
+}
+.leng{
+    width: 80px !important;
+    height: 80px !important;
+    border:4px solid #707070 !important;
+}
+.adjust{
+    width: 150px !important;
+    height: 150px !important;
+    border:none;
+}
+.dummy{
+    width: 70px;
+}
+.dummy img{
+    width: 100%;
+}
+.logo{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.replace{
+    font-size: 11px !important;
+    font-weight: lighter !important;
+    font-family: 'Montserrat' !important;
+}
+.area{
+    border:1px solid #9A9A9A;
+}
+.area:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid  #9A9A9A!important;
+}
+.inside{
+   /* height: 50px;
+    width: 20px;*/
+    border:none;
+}
+.occupy{
+    line-height: 2.5;
+    width: 80% !important;
+}
+.tag{
+    border:1px solid #9A9A9A !important;
+}
+.save{
+    box-shadow: 0px 5px 20px #00000029 !important;
+    border-radius: 20px !important;
+    font-size: 12px !important;
+    font-family: 'Montserrat' !important;
+    padding: 10px !important;
+}
+.color{
+    position: fixed;
+    top:0;
+    display: none;
+
+}
+.appear{
+    display: block;
+    transition: all 3s;
+}
+.mark{
+    width: 30px;
+    height: 30px;
+    border:2px solid #4A4649;
+}
+.mark img{
+    width: 100%;
+}
+.set{
+    font-size: 12px !important;
+    font-weight: bold !important;
+    font-family: 'Montserrat' !important;
+}
+.have{
+    font-size: 11px !important;
+    font-weight:lighter !important;
+    font-family: 'Montserrat' !important;
+}
+.lead{
+    margin-top: 1.2rem !important;
+}
+.angle{
+    width: 7px;
+}
+.angle img{
+    width:100%;
+}
+@media screen and (max-width: 600px ) {
+    .img{
+        margin-left: 0 !important;
+    }
+
+}

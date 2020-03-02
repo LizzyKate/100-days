@@ -1,0 +1,380 @@
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+
+  <body>
+   <div class="profile">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="img">
+        <a href="#">
+          <img src="./images/Podreva-white-500px.png">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-white shows" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-white">
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#">Add Shows</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#">My Shows</a>
+        </li>
+      </ul>
+
+      <div class="new-space">
+        <div class=" nav-item mx-3">
+          <a class="nav-link text-white"href="#"> Help </a>
+        </div>
+        <div class="new-img nav-item mx-3">
+          <a href="#">
+            <img src="./images/20191012_155108.png">
+          </a>
+        </div>
+
+        <div class="nav-item dropdown text-white">
+          <div class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mercy Johnson
+        </div>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+</div>
+<div class="container-fluid pose pl-0">
+  <div class="row divide">
+    <nav class="col-md-2 d-none d-md-block sidebar first-division" >
+      <div class="sidebar-sticky">
+        <div class="nav flex-column">
+          <div class="nav-item icon ">
+            <a class="nav-link" href="#">
+              <img src="./images/house (1).svg">
+            </a>
+          </div>
+          <div class="nav-item icon ">
+            <a class="nav-link " href="#">
+              <img src="./images/stream (1).svg">
+            </a>
+          </div>
+          <div class="nav-item icon">
+            <a class="nav-link" href="#">
+              <img src="./images/chart-line.svg">
+            </a>
+          </div>
+          <div class="nav-item icon">
+            <a class="nav-link" href="#">
+              <img src="./images/Group 11.svg">
+            </a>
+          </div>
+          <div class="nav-item icon">
+            <a class="nav-link" href="#">
+              <img src="./images/windows.svg">
+            </a>
+          </div>
+          <div class="nav-item icon">
+            <a class="nav-link ml-2" href="#">
+              <img src="./images/globe.svg">
+            </a>
+            <a class="nav-link reduce" href="#">Web</a>
+          </div>
+          <div class="nav-item icon">
+            <a class="nav-link" href="#">
+              <img src="./images/Group 15.svg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 second-division">
+      <div class= "container-fluid bg-white px-0">
+        <div class="container-fluid shift">
+         <div class="form-check py-3 ml-3">
+          <input type="checkbox" class="form-check-input " id="exampleCheck1">
+          <label class="form-check-label yes ml-2 " for="exampleCheck1">Yes, enable my hosted podreva website</label>
+        </div>
+      </div>
+      <div class="container-fluid fill mb-2 "></div>
+      <p class="p-2 ml-3 mb-3 choose">CHOOSE YOUR SUBDOMAIN *</p>
+      <div class="input-group  input-group-sm sub pb-3 ml-4 mb-2">
+        <div class="input-group-prepend ">
+          <span class="input-group-text domain" id="inputGroup-sizing-sm">https://</span>
+        </div>
+        <input type="text" class="form-control domain " id="inputGroup-sizing-sm" aria-label="Amount (to the nearest dollar)" placeholder="mysubdomain">
+        <div class="input-group-append">
+          <span class="input-group-text domain" id="inputGroup-sizing-sm">podreva.fm</span>
+        </div>
+      </div>
+      <p class="p-2 ml-3 mb-3 choose">SET YOUR CUSTOM DOMAIN</p>
+      <div class="input-group  input-group-sm sub pb-3 ml-4 mb-2">
+        <div class="input-group-prepend ">
+          <span class="input-group-text domain " id="inputGroup-sizing-sm">https://</span>
+        </div>
+        <input type="text" class="form-control domain" id="inputGroup-sizing-sm" aria-label="Amount (to the nearest dollar)" placeholder="www.mydomain.com, mydomain.com, etc">
+        <div class="input-group-append" >
+          <span class="input-group-text domain" id="inputGroup-sizing-sm">podreva.fm</span>
+        </div>
+      </div>
+      <div class="container-fluid ">
+        <div class="d-flex flex-row bd-highlight  align-items-center ">
+          <div class="p-2 bd-highlight">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input enable" id="exampleCheck1">
+              <label class="form-check-label all ml-2" for="exampleCheck1">Redirect all requests to your custom domain
+              </label>
+            </div>
+          </div>
+          <div class="p-2 bd-highlight ">
+            <div class="rounded-circle to">
+              <p class="custom text-center mb-0">?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid ">
+        <div class="d-flex flex-row bd-highlight  align-items-center mb-2">
+          <div class="p-2 bd-highlight">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input enable" id="exampleCheck1">
+              <label class="form-check-label all ml-2" for="exampleCheck1">Enable episode permalink URLs based on episode number
+              </label>
+            </div>
+          </div>
+          <div class="p-2 bd-highlight ">
+            <div class="rounded-circle to">
+              <p class="custom text-center mb-0">?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">Border</div>
+      <p class="p-2 ml-3 mt-2 mb-3 choose">RECOMMENDED / FEATURED EPISODE</p>
+      <div class="input-group input-group-sm pb-3 ml-4 mb-2 action">
+        <input type="text" class="form-control other p-3" aria-label="Text input with dropdown button" placeholder="choose an episode">
+        <div class="input-group-append">
+          <button class="btn  dropdown-toggle else" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </div>
+      </div>
+      <p class="p-2 ml-3 mt-2 mb-3 site">SITE INTRO TEXT</p>
+      <div class="container w-50 ml-0">
+        <div class="row">
+          <div class="col-sm-2 h-25 px-0 ml-4 bold">
+           <div class="d-flex flex-row bd-highlight ml-2">
+            <div class="p-2 bd-highlight svg mt-1">
+              <img src="./images/bold.svg">
+            </div>
+            <div class="p-2 bd-highlight italic mt-1 dash">
+              <img src="./images/italic.svg">
+            </div>
+            <div class="p-2 bd-highlight link mt-1 dash">
+              <img src="./images/link.svg" >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 h-25 px-0 ml-4 bold">
+          <div class="d-flex flex-row bd-highlight ml-2">
+            <div class="p-2 bd-highlight quote mt-1">
+              <img src="./images/quote-left.svg">
+            </div>
+            <div class="p-2 bd-highlight ul mt-1">
+              <img src="./images/list-ul.svg">
+            </div>
+            <div class="p-2 bd-highlight ol mt-1">
+              <img src="./images/list-ol.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input type="text" class="form-control mt-3 ml-3 abt" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+    <p class="p-2 ml-3 mt-2 mb-3 site">ABOUT PAGE CONTENT</p>
+    <textarea class="form-control mt-3 ml-3 abt" aria-label="Large" aria-describedby="inputGroup-sizing-sm"></textarea>
+    <div class="">Border</div>
+    <div class="container mt-3 p-0">
+      <div class="row ml-3">
+        <div class="col-sm p-0">
+         <div class=" leng"></div>
+       </div>
+       <div class="col-sm p-0">
+         <div class=" leng"></div>
+       </div>
+       <div class="col-sm p-0">
+         <div class=" leng ger"></div>
+       </div>
+       <div class="col-sm p-0">
+         <div class=" leng ger"></div>
+       </div>
+       <div class="col-sm p-0">
+         <div class=" leng ger"></div>
+       </div>
+       <div class="col-sm p-0">
+         <div class=" leng"></div>
+       </div>
+     </div>
+   </div>
+   <div class="">Border</div>
+   <div class="container-fluid ">
+    <div class="d-flex flex-row bd-highlight  align-items-center ">
+      <div class="p-2 bd-highlight">
+       <div class=" adjust">
+        <div class="dummy m-auto pt-5">
+         <img src="./images/image.svg">
+       </div>
+     </div>
+   </div>
+   <div class="p-2 bd-highlight">
+     <div class="d-flex flex-column bd-highlight mb-3 mt-4">
+      <div class="p-1 bd-highlight logo">WEBSITE LOGO / HEADER IMAGE</div>
+      <div class="p-1 bd-highlight replace">Replace the default website header text with an image of your own. Recommended dimensions: 500px max width, and wider than taller.</div>
+      <div class="p-2 bd-highlight">
+       <button type="button" class="btn inside replace">Choose file</button>
+     </div>
+     <div class="p-2 bd-highlight">
+      <div class="form-check ">
+        <input type="checkbox" class="form-check-input enable" id="exampleCheck1">
+        <label class="form-check-label all ml-2 replace" for="exampleCheck1">Remove Logo</label>
+      </div>
+    </div>
+  </div>      
+</div>
+</div>
+</div>
+<div class="container-fluid ">
+  <div class="d-flex flex-row bd-highlight  align-items-center ">
+    <div class="p-2 bd-highlight">
+     <div class=" adjust">
+      <div class="dummy m-auto pt-5">
+       <img src="./images/image.svg">
+     </div>
+   </div>
+ </div>
+ <div class="p-2 bd-highlight">
+   <div class="d-flex flex-column bd-highlight mb-3 mt-4">
+    <div class="p-1 bd-highlight logo">SOCIAL SHARING IMAGE</div>
+    <div class="p-1 bd-highlight replace">Add an image that will display when shared on Twitter, Facebook, etc. Recommended dimensions: 1024 × 512px.</div>
+    <div class="p-2 bd-highlight">
+     <button type="button" class="btn inside replace">Choose file</button>
+   </div>
+   <div class="p-2 bd-highlight">
+    <div class="form-check ">
+      <input type="checkbox" class="form-check-input enable" id="exampleCheck1">
+      <label class="form-check-label all ml-2 replace" for="exampleCheck1">Remove Social media</label>
+    </div>
+  </div>
+</div>      
+</div>
+</div>
+</div>
+<div class="container-fluid ">
+  <div class="d-flex flex-row bd-highlight  align-items-center ">
+    <div class="p-2 bd-highlight">
+     <div class=" adjust">
+      <div class="dummy m-auto pt-5">
+       <img src="./images/image.svg">
+     </div>
+   </div>
+ </div>
+ <div class="p-2 bd-highlight">
+   <div class="d-flex flex-column bd-highlight mb-3 mt-4">
+    <div class="p-1 bd-highlight logo">CUSTOM FAVICON IMAGE</div>
+    <div class="p-1 bd-highlight replace">Add a special square icon that will display in web browser tabs. Recommended dimensions: 192 × 192px.</div>
+    <div class="p-2 bd-highlight">
+     <button type="button" class="btn inside replace ">Choose file</button>
+   </div>
+   <div class="p-2 bd-highlight">
+    <div class="form-check ">
+      <input type="checkbox" class="form-check-input enable" id="exampleCheck1">
+      <label class="form-check-label all ml-2 replace" for="exampleCheck1">Remove Favicon</label>
+    </div>
+  </div>
+</div>      
+</div>
+</div>
+</div>
+
+<div class="">Border</div>
+<form class="occupy ml-3">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4" class="logo">GOOGLE ANALYTICS ID / TAG MANAGER ID</label>
+      <input type="email" class="form-control replace area tag p-3" id="inputEmail4" placeholder="UA-XXXXXXXXXX-1">
+      <p class="replace">Track your website's page views with your Google Analytics / Tag Manager ID</p>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4" class="logo">FATHOM ANALYTICS ID</label>
+      <input type="password" class="form-control replace area tag p-3" id="inputPassword4" placeholder="Choose an episode">
+      <p class="replace">Track your website's page views with your Fathom Analytics ID</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress" class="logo">EXTRA FOOTER CONTENT</label>
+    <input type="text" class="form-control replace area tag p-3" id="inputAddress" placeholder="Extra footer content to be included before your copyright notice.">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2" class="logo ">EXPERIMENTAL CUSTOM CSS</label>
+    <textarea class="form-control form-control-lg replace area tag h-25 p-3" id="inputAddress2" placeholder="You can include css here to override any defaultstyle on your site"></textarea>
+  </div>
+  <button type="submit" class="btn save mt-3">Save Website Settings</button>
+</form>
+</main>
+</div>
+<div class="container-fluid color pl-0 mx-0">
+  <div class="d-flex flex-row bd-highlight justify-content-between pl-4">
+    <div class="p-2 bd-highlight">
+      <div class="d-flex flex-row bd-highlight align-items-center">
+        <div class="p-2 bd-highlight">
+          <div class="rounded-circle p-2 mark">
+            <img src="./images/check.svg" alt="">
+          </div>
+        </div>
+        <div class="p-2 bd-highlight mt-1">
+          <div class="d-flex flex-column bd-highlight ">
+            <div class="bd-highlight set">All set!</div>
+            <div class="pt-2 bd-highlight have">You have successfully update your website</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-2 bd-highlight lead mr-5">
+      <div class="d-flex flex-row bd-highlight align-items-center">
+        <div class="bd-highlight angle">
+          <img src="./images/angle-right.svg" alt="">
+        </div>
+        <div class=" bd-highlight angle">
+          <img src="./images/angle-left.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
