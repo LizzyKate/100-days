@@ -1,4 +1,5 @@
 const form = document.querySelector('#customer-form');
+const input = document.querySelectorAll('input')
 const course = document.querySelector('.course');
 const name = document.querySelector('.name');
 const author = document.querySelector('.author');
@@ -7,23 +8,13 @@ const load = document.querySelector('.loading');
 const list = document.querySelector('.customer-list');
 const img = document.querySelector('.card-img-top');
 form.addEventListener('submit', (e) => {
-	e.preventdefault();
-	if (course.value = '' && name.value ='' &&  author.value= ''){
+	if ( name.value !== '' && course.value !== '' && author.value !== ''){
 		load.classList.add('showItem');
 		setTimeOut(() => {
 			load.classList.remove('showItem')
 		}, 3000);
-	// let image = ['cust-0', 'cust-1', 'cust-2', 'cust-3', 'cust-4', 'cust-5'];
-	// const pictures = () => {
-	// 	for(let i = 0; i < image.length; i++){
-	// 		let counter = 0;
-	// 		if (counter > image.length - 1){
-	// 			counter = 0;
-	// 		}
-	// 	}
-	// }
 		let number = [1, 2, 3, 4, 5];
-		const random = Math.floor(Math.random() * number.length);
+		let random = Math.floor(Math.random() * number.length);
 		const div = document.createElement('div');
 		 div.classList.add('col-11', 'mx-auto', 'col-md-6', 'my-3', 'col-lg-4');
      div.innerHTML = `<div class="card text-left">
