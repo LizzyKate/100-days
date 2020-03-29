@@ -8,17 +8,18 @@ const load = document.querySelector('.loading');
 const list = document.querySelector('.customer-list');
 const img = document.querySelector('.card-img-top');
 form.addEventListener('submit', (e) => {
+  e.preventDefault();
 	if ( name.value !== '' && course.value !== '' && author.value !== ''){
 		load.classList.add('showItem');
-		setTimeOut(() => {
+		setTimeout(() => {
 			load.classList.remove('showItem')
 		}, 3000);
-		let number = [1, 2, 3, 4, 5];
-		let random = Math.floor(Math.random() * number.length);
+		let count = [1, 2, 3, 4, 5];
+		let pick = Math.floor(Math.random() * count.length);
 		const div = document.createElement('div');
 		 div.classList.add('col-11', 'mx-auto', 'col-md-6', 'my-3', 'col-lg-4');
      div.innerHTML = `<div class="card text-left">
-     <img src="./img/cust-${random}.jpg" class="card-img-top" alt="">
+     <img src="./img/cust-${pick}.jpg" class="card-img-top" alt="">
      <div class="card-body">
       <!-- customer name -->
       <h6 class="text-capitalize "><span class="badge badge-warning mr-2">name :</span><span id="customer-name">${name.value}</span></h6>
@@ -34,6 +35,10 @@ form.addEventListener('submit', (e) => {
      </div>
     </div>`
     list.appendChild(div)
+    name.value = '';
+    course.value = '';
+    author.value = '';
+    
 	}
 
 })
